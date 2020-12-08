@@ -1,0 +1,18 @@
+--cpu Cortex-M3
+"ll_usart_int\startup_stm32f103xb.o"
+"ll_usart_int\max7219.o"
+"ll_usart_int\main.o"
+"ll_usart_int\stm32f1xx_it.o"
+"ll_usart_int\stm32f1xx_ll_gpio.o"
+"ll_usart_int\stm32f1xx_ll_spi.o"
+"ll_usart_int\stm32f1xx_ll_dma.o"
+"ll_usart_int\stm32f1xx_ll_rcc.o"
+"ll_usart_int\stm32f1xx_ll_utils.o"
+"ll_usart_int\stm32f1xx_ll_exti.o"
+"ll_usart_int\stm32f1xx_ll_pwr.o"
+"ll_usart_int\stm32f1xx_ll_usart.o"
+"ll_usart_int\system_stm32f1xx.o"
+--library_type=microlib --strict --scatter "LL_USART_INT\LL_USART_INT.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "LL_USART_INT.map" -o LL_USART_INT\LL_USART_INT.axf
