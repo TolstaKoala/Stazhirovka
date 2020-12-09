@@ -112,7 +112,7 @@ int main(void)
 		
 		while(1){
 			ch[i] = UARTReadChar ();
-		  if(ch[i] == 48 || i==49)
+		  if(ch[i] == 13 || i==14)
 			break;
 		  else{i++;}
 		}
