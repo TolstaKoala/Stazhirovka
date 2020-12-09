@@ -108,33 +108,22 @@ int main(void)
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
 	int i=0;
-  while (1)
-  {
-    //if(i>1023) i=0;
-    //sprintf(str1,"String %04d\r\n",i);
+  while (1){
 		
-		while(1)
-		{
-			
-		ch[i] = UARTReadChar ();
-		if(ch[i] == 48 || i==49)
+		while(1){
+			ch[i] = UARTReadChar ();
+		  if(ch[i] == 48 || i==49)
 			break;
-		else{i++;}
+		  else{i++;}
 		}
 		
 		sprintf (str1, "\r\nYou have pressed:");
 		USART_TX((uint8_t*)str1,50);
 		LL_mDelay(100);
 		USART_TX((uint8_t*)ch,i);
-		for(int j=0;j<i;j++)
-		{
-    
+		for(int j=0;j<i;j++){
 			sprintf(str1," %d",ch[j]);
-			//USART_TX((uint8_t*)ch[j],1);
-			//USART_TX(" ",1);
-			
 			USART_TX((uint8_t*)str1,4);
-			//USART_TX(("\n\r"),2);
       LL_mDelay(100);
 		}
 		i=0;
@@ -216,7 +205,6 @@ static void MX_USART1_UART_Init(void)
   LL_GPIO_Init(GPIOA, &GPIO_InitStruct);
 
   /* USER CODE BEGIN USART1_Init 1 */
-
   /* USER CODE END USART1_Init 1 */
   USART_InitStruct.BaudRate = 115200;
   USART_InitStruct.DataWidth = LL_USART_DATAWIDTH_8B;
@@ -228,9 +216,7 @@ static void MX_USART1_UART_Init(void)
   LL_USART_ConfigAsyncMode(USART1);
   LL_USART_Enable(USART1);
   /* USER CODE BEGIN USART1_Init 2 */
-
   /* USER CODE END USART1_Init 2 */
-
 }
 
 /**
@@ -241,7 +227,6 @@ static void MX_USART1_UART_Init(void)
 static void MX_GPIO_Init(void)
 {
   LL_APB2_GRP1_EnableClock(LL_APB2_GRP1_PERIPH_GPIOA);
-
 }
 
 /* USER CODE BEGIN 4 */
@@ -256,7 +241,6 @@ void Error_Handler(void)
 {
   /* USER CODE BEGIN Error_Handler_Debug */
   /* User can add his own implementation to report the HAL error return state */
-
   /* USER CODE END Error_Handler_Debug */
 }
 

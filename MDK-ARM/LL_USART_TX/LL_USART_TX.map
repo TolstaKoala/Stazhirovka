@@ -754,69 +754,69 @@ Memory Map of the image
     Exec Addr    Load Addr    Size         Type   Attr      Idx    E Section Name        Object
 
     0x08000000   0x08000000   0x000000ec   Data   RO            3    RESET               startup_stm32f103xb.o
-    0x080000ec   0x080000ec   0x00000000   Code   RO          756  * .ARM.Collect$$$$00000000  mc_w.l(entry.o)
-    0x080000ec   0x080000ec   0x00000004   Code   RO         1022    .ARM.Collect$$$$00000001  mc_w.l(entry2.o)
-    0x080000f0   0x080000f0   0x00000004   Code   RO         1025    .ARM.Collect$$$$00000004  mc_w.l(entry5.o)
-    0x080000f4   0x080000f4   0x00000000   Code   RO         1027    .ARM.Collect$$$$00000008  mc_w.l(entry7b.o)
-    0x080000f4   0x080000f4   0x00000000   Code   RO         1029    .ARM.Collect$$$$0000000A  mc_w.l(entry8b.o)
-    0x080000f4   0x080000f4   0x00000008   Code   RO         1030    .ARM.Collect$$$$0000000B  mc_w.l(entry9a.o)
-    0x080000fc   0x080000fc   0x00000000   Code   RO         1032    .ARM.Collect$$$$0000000D  mc_w.l(entry10a.o)
-    0x080000fc   0x080000fc   0x00000000   Code   RO         1034    .ARM.Collect$$$$0000000F  mc_w.l(entry11a.o)
-    0x080000fc   0x080000fc   0x00000004   Code   RO         1023    .ARM.Collect$$$$00002712  mc_w.l(entry2.o)
+    0x080000ec   0x080000ec   0x00000000   Code   RO          796  * .ARM.Collect$$$$00000000  mc_w.l(entry.o)
+    0x080000ec   0x080000ec   0x00000004   Code   RO         1062    .ARM.Collect$$$$00000001  mc_w.l(entry2.o)
+    0x080000f0   0x080000f0   0x00000004   Code   RO         1065    .ARM.Collect$$$$00000004  mc_w.l(entry5.o)
+    0x080000f4   0x080000f4   0x00000000   Code   RO         1067    .ARM.Collect$$$$00000008  mc_w.l(entry7b.o)
+    0x080000f4   0x080000f4   0x00000000   Code   RO         1069    .ARM.Collect$$$$0000000A  mc_w.l(entry8b.o)
+    0x080000f4   0x080000f4   0x00000008   Code   RO         1070    .ARM.Collect$$$$0000000B  mc_w.l(entry9a.o)
+    0x080000fc   0x080000fc   0x00000000   Code   RO         1072    .ARM.Collect$$$$0000000D  mc_w.l(entry10a.o)
+    0x080000fc   0x080000fc   0x00000000   Code   RO         1074    .ARM.Collect$$$$0000000F  mc_w.l(entry11a.o)
+    0x080000fc   0x080000fc   0x00000004   Code   RO         1063    .ARM.Collect$$$$00002712  mc_w.l(entry2.o)
     0x08000100   0x08000100   0x00000024   Code   RO            4    .text               startup_stm32f103xb.o
-    0x08000124   0x08000124   0x00000024   Code   RO          759    .text               mc_w.l(memseta.o)
-    0x08000148   0x08000148   0x0000002c   Code   RO         1039    .text               mc_w.l(uidiv.o)
-    0x08000174   0x08000174   0x00000024   Code   RO         1054    .text               mc_w.l(init.o)
+    0x08000124   0x08000124   0x00000024   Code   RO          799    .text               mc_w.l(memseta.o)
+    0x08000148   0x08000148   0x0000002c   Code   RO         1079    .text               mc_w.l(uidiv.o)
+    0x08000174   0x08000174   0x00000024   Code   RO         1094    .text               mc_w.l(init.o)
     0x08000198   0x08000198   0x00000004   Code   RO          147    i.BusFault_Handler  stm32f1xx_it.o
     0x0800019c   0x0800019c   0x00000002   Code   RO          148    i.DebugMon_Handler  stm32f1xx_it.o
     0x0800019e   0x0800019e   0x00000002   Code   RO           13    i.Error_Handler     main.o
     0x080001a0   0x080001a0   0x00000004   Code   RO          149    i.HardFault_Handler  stm32f1xx_it.o
     0x080001a4   0x080001a4   0x0000001c   Code   RO           14    i.LL_APB2_GRP1_EnableClock  main.o
-    0x080001c0   0x080001c0   0x00000122   Code   RO          249    i.LL_GPIO_Init      stm32f1xx_ll_gpio.o
-    0x080002e2   0x080002e2   0x0000001c   Code   RO          461    i.LL_Init1msTick    stm32f1xx_ll_utils.o
-    0x080002fe   0x080002fe   0x00000024   Code   RO          383    i.LL_RCC_GetSystemClocksFreq  stm32f1xx_ll_rcc.o
+    0x080001c0   0x080001c0   0x00000122   Code   RO          286    i.LL_GPIO_Init      stm32f1xx_ll_gpio.o
+    0x080002e2   0x080002e2   0x0000001c   Code   RO          498    i.LL_Init1msTick    stm32f1xx_ll_utils.o
+    0x080002fe   0x080002fe   0x00000024   Code   RO          420    i.LL_RCC_GetSystemClocksFreq  stm32f1xx_ll_rcc.o
     0x08000322   0x08000322   0x00000002   PAD
-    0x08000324   0x08000324   0x0000000c   Code   RO          468    i.LL_SetSystemCoreClock  stm32f1xx_ll_utils.o
-    0x08000330   0x08000330   0x00000090   Code   RO          656    i.LL_USART_Init     stm32f1xx_ll_usart.o
-    0x080003c0   0x080003c0   0x0000000a   Code   RO          657    i.LL_USART_IsEnabled  stm32f1xx_ll_usart.o
-    0x080003ca   0x080003ca   0x0000009e   Code   RO          658    i.LL_USART_SetBaudRate  stm32f1xx_ll_usart.o
-    0x08000468   0x08000468   0x00000028   Code   RO          469    i.LL_mDelay         stm32f1xx_ll_utils.o
+    0x08000324   0x08000324   0x0000000c   Code   RO          505    i.LL_SetSystemCoreClock  stm32f1xx_ll_utils.o
+    0x08000330   0x08000330   0x00000090   Code   RO          696    i.LL_USART_Init     stm32f1xx_ll_usart.o
+    0x080003c0   0x080003c0   0x0000000a   Code   RO          697    i.LL_USART_IsEnabled  stm32f1xx_ll_usart.o
+    0x080003ca   0x080003ca   0x0000009e   Code   RO          698    i.LL_USART_SetBaudRate  stm32f1xx_ll_usart.o
+    0x08000468   0x08000468   0x00000028   Code   RO          506    i.LL_mDelay         stm32f1xx_ll_utils.o
     0x08000490   0x08000490   0x0000000a   Code   RO           15    i.MX_GPIO_Init      main.o
     0x0800049a   0x0800049a   0x00000002   PAD
     0x0800049c   0x0800049c   0x000000a4   Code   RO           16    i.MX_USART1_UART_Init  main.o
     0x08000540   0x08000540   0x00000004   Code   RO          150    i.MemManage_Handler  stm32f1xx_it.o
     0x08000544   0x08000544   0x00000002   Code   RO          151    i.NMI_Handler       stm32f1xx_it.o
     0x08000546   0x08000546   0x00000002   Code   RO          152    i.PendSV_Handler    stm32f1xx_it.o
-    0x08000548   0x08000548   0x00000020   Code   RO          386    i.RCC_GetHCLKClockFreq  stm32f1xx_ll_rcc.o
-    0x08000568   0x08000568   0x00000024   Code   RO          387    i.RCC_GetPCLK1ClockFreq  stm32f1xx_ll_rcc.o
-    0x0800058c   0x0800058c   0x00000024   Code   RO          388    i.RCC_GetPCLK2ClockFreq  stm32f1xx_ll_rcc.o
-    0x080005b0   0x080005b0   0x0000003c   Code   RO          389    i.RCC_GetSystemClockFreq  stm32f1xx_ll_rcc.o
-    0x080005ec   0x080005ec   0x00000058   Code   RO          390    i.RCC_PLL_GetFreqDomain_SYS  stm32f1xx_ll_rcc.o
+    0x08000548   0x08000548   0x00000020   Code   RO          423    i.RCC_GetHCLKClockFreq  stm32f1xx_ll_rcc.o
+    0x08000568   0x08000568   0x00000024   Code   RO          424    i.RCC_GetPCLK1ClockFreq  stm32f1xx_ll_rcc.o
+    0x0800058c   0x0800058c   0x00000024   Code   RO          425    i.RCC_GetPCLK2ClockFreq  stm32f1xx_ll_rcc.o
+    0x080005b0   0x080005b0   0x0000003c   Code   RO          426    i.RCC_GetSystemClockFreq  stm32f1xx_ll_rcc.o
+    0x080005ec   0x080005ec   0x00000058   Code   RO          427    i.RCC_PLL_GetFreqDomain_SYS  stm32f1xx_ll_rcc.o
     0x08000644   0x08000644   0x00000002   Code   RO          153    i.SVC_Handler       stm32f1xx_it.o
     0x08000646   0x08000646   0x00000002   Code   RO          154    i.SysTick_Handler   stm32f1xx_it.o
     0x08000648   0x08000648   0x0000011c   Code   RO           17    i.SystemClock_Config  main.o
-    0x08000764   0x08000764   0x00000058   Code   RO          723    i.SystemInit        system_stm32f1xx.o
+    0x08000764   0x08000764   0x00000058   Code   RO          763    i.SystemInit        system_stm32f1xx.o
     0x080007bc   0x080007bc   0x00000020   Code   RO           18    i.UARTReadChar      main.o
     0x080007dc   0x080007dc   0x00000030   Code   RO           19    i.USART_TX          main.o
     0x0800080c   0x0800080c   0x00000004   Code   RO          155    i.UsageFault_Handler  stm32f1xx_it.o
-    0x08000810   0x08000810   0x00000028   Code   RO          808    i.__0sprintf$1      mc_w.l(printf1.o)
-    0x08000838   0x08000838   0x0000000e   Code   RO         1068    i.__scatterload_copy  mc_w.l(handlers.o)
-    0x08000846   0x08000846   0x00000002   Code   RO         1069    i.__scatterload_null  mc_w.l(handlers.o)
-    0x08000848   0x08000848   0x0000000e   Code   RO         1070    i.__scatterload_zeroinit  mc_w.l(handlers.o)
+    0x08000810   0x08000810   0x00000028   Code   RO          848    i.__0sprintf$1      mc_w.l(printf1.o)
+    0x08000838   0x08000838   0x0000000e   Code   RO         1108    i.__scatterload_copy  mc_w.l(handlers.o)
+    0x08000846   0x08000846   0x00000002   Code   RO         1109    i.__scatterload_null  mc_w.l(handlers.o)
+    0x08000848   0x08000848   0x0000000e   Code   RO         1110    i.__scatterload_zeroinit  mc_w.l(handlers.o)
     0x08000856   0x08000856   0x00000002   PAD
-    0x08000858   0x08000858   0x00000154   Code   RO          813    i._printf_core      mc_w.l(printf1.o)
-    0x080009ac   0x080009ac   0x0000000a   Code   RO          815    i._sputc            mc_w.l(printf1.o)
+    0x08000858   0x08000858   0x00000154   Code   RO          853    i._printf_core      mc_w.l(printf1.o)
+    0x080009ac   0x080009ac   0x0000000a   Code   RO          855    i._sputc            mc_w.l(printf1.o)
     0x080009b6   0x080009b6   0x00000002   PAD
     0x080009b8   0x080009b8   0x00000104   Code   RO           20    i.main              main.o
-    0x08000abc   0x08000abc   0x00000018   Data   RO          724    .constdata          system_stm32f1xx.o
-    0x08000ad4   0x08000ad4   0x00000020   Data   RO         1066    Region$$Table       anon$$obj.o
+    0x08000abc   0x08000abc   0x00000018   Data   RO          764    .constdata          system_stm32f1xx.o
+    0x08000ad4   0x08000ad4   0x00000020   Data   RO         1106    Region$$Table       anon$$obj.o
 
 
     Execution Region RW_IRAM1 (Exec base: 0x20000000, Load base: 0x08000af4, Size: 0x00000458, Max: 0x00005000, ABSOLUTE)
 
     Exec Addr    Load Addr    Size         Type   Attr      Idx    E Section Name        Object
 
-    0x20000000   0x08000af4   0x00000004   Data   RW          725    .data               system_stm32f1xx.o
+    0x20000000   0x08000af4   0x00000004   Data   RW          765    .data               system_stm32f1xx.o
     0x20000004        -       0x00000050   Zero   RW           21    .bss                main.o
     0x20000054   0x08000af8   0x00000004   PAD
     0x20000058        -       0x00000400   Zero   RW            1    STACK               startup_stm32f103xb.o
@@ -829,9 +829,9 @@ Image component sizes
 
       Code (inc. data)   RO Data    RW Data    ZI Data      Debug   Object Name
 
-       828         96          0          0         80     428087   main.o
+       828         96          0          0         80     426915   main.o
         36          8        236          0       1024        784   startup_stm32f103xb.o
-        26          0          0          0          0      12422   stm32f1xx_it.o
+        26          0          0          0          0     361942   stm32f1xx_it.o
        290          0          0          0          0      10447   stm32f1xx_ll_gpio.o
        288         48          0          0          0      13393   stm32f1xx_ll_rcc.o
        312         12          0          0          0      15724   stm32f1xx_ll_usart.o
@@ -839,7 +839,7 @@ Image component sizes
         88         18         24          4          0       1103   system_stm32f1xx.o
 
     ----------------------------------------------------------------------
-      1952        188        292          4       1108     487265   Object Totals
+      1952        188        292          4       1108     835613   Object Totals
          0          0         32          0          0          0   (incl. Generated)
          4          0          0          0          4          0   (incl. Padding)
 
@@ -881,8 +881,8 @@ Image component sizes
 
       Code (inc. data)   RO Data    RW Data    ZI Data      Debug   
 
-      2512        214        292          4       1108     486417   Grand Totals
-      2512        214        292          4       1108     486417   ELF Image Totals
+      2512        214        292          4       1108     834765   Grand Totals
+      2512        214        292          4       1108     834765   ELF Image Totals
       2512        214        292          4          0          0   ROM Totals
 
 ==============================================================================
